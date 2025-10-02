@@ -19,7 +19,7 @@ jobs:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_JAVA: true
-          JAVA_FILE_NAME: checkstyle.xml
+          JAVA_FILE_NAME: .github/linters/checkstyle.xml
           VALIDATE_JAVA_MAVEN: true
           VALIDATE_JAVA_GRADLE: false
           VALIDATE_JAVA_CHECKSTYLE: true
