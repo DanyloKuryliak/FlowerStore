@@ -19,12 +19,12 @@ public class FlowerPack extends Item {
     }
 
     // Setters
-    public void setFlower(Flower flower) {
-        this.flower = flower;
+    public void setFlower(Flower newFlower) {
+        this.flower = newFlower;
     }
 
-    public void setAmount(int amount) {
-        this.amount = amount;
+    public void setAmount(int newAmount) {
+        this.amount = newAmount;
     }
 
     @Override
